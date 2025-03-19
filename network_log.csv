@@ -1,0 +1,32 @@
+Time,Source,Destination,Protocol,Packet Summary
+2/6/2025 20:10,10.162.172.197,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_companion-link._tcp.local.'
+2/6/2025 20:10,10.162.170.22,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_674A0243._sub._googlecast._tcp.local.'
+2/6/2025 20:10,10.162.178.27,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'wpad.local.'
+2/6/2025 20:10,34.237.73.95,10.162.138.231,6,Ether / IP / TCP 34.237.73.95:https > 10.162.138.231:64461 PA / Raw
+2/6/2025 20:10,10.162.138.231,34.237.73.95,6,Ether / IP / TCP 10.162.138.231:64461 > 34.237.73.95:https PA / Raw
+2/6/2025 20:10,10.162.158.66,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'255.255.162.10.in-addr.arpa.local.'
+2/6/2025 20:10,10.162.171.198,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_googlecast._tcp.local.'
+2/6/2025 20:10,10.162.171.198,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_googlecast._tcp.local.'
+2/6/2025 20:10,10.162.178.27,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'wpad.local.'
+2/6/2025 20:10,10.162.156.64,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_rdlink._tcp.local.'
+2/6/2025 20:10,10.162.244.228,224.0.0.251,17,Ether / IP / UDP / mDNS Ans 10.162.244.228
+2/6/2025 20:10,34.237.73.95,10.162.138.231,6,Ether / IP / TCP 34.237.73.95:https > 10.162.138.231:64461 A
+2/6/2025 20:10,169.254.199.77,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_companion-link._tcp.local.'
+2/6/2025 20:10,169.254.199.77,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'Kartikeya\xe2\x80\x99s MacBook Air._companion-link._tcp.local.'
+2/6/2025 20:10,10.162.170.207,224.0.0.251,17,"Ether / IP / UDP / mDNS Ans [b'rpBA=DE:F6:55:6A:93:A9', b'rpAD=56021a6aa811', b'rpFl=0x20040', b'rpHN=d734176fbee8', b'rpMac=0', b'rpVr=601.3']"
+2/6/2025 20:10,0.0.0.0,255.255.255.255,17,Ether / IP / UDP / BOOTP / DHCP Discover
+2/6/2025 20:10,0.0.0.0,255.255.255.255,17,Ether / IP / UDP / BOOTP / DHCP Request
+2/6/2025 20:10,10.162.244.228,224.0.0.251,17,Ether / IP / UDP / mDNS Ans 10.162.244.228
+2/6/2025 20:10,10.162.178.231,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_spotify-connect._tcp.local.'
+2/6/2025 20:10,10.162.178.27,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'wpad.local.'
+2/6/2025 20:10,10.162.178.27,10.162.255.255,17,Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+2/6/2025 20:10,10.162.178.27,224.0.0.252,17,Ether / IP / UDP 10.162.178.27:50841 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+2/6/2025 20:10,10.162.178.27,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'wpad.local.'
+2/6/2025 20:10,10.162.178.27,10.162.255.255,17,Ether / IP / UDP / NBNSHeader / NBNSQueryRequest who has '\\WPAD'
+2/6/2025 20:10,10.162.221.4,224.0.0.251,17,"Ether / IP / UDP / mDNS Ans b""KGB's MacBook Air._companion-link._tcp.local."""
+2/6/2025 20:10,10.162.178.27,224.0.0.252,17,Ether / IP / UDP 10.162.178.27:61831 > 224.0.0.252:llmnr / LLMNRQuery who has 'wpad.'
+2/6/2025 20:10,10.162.143.206,10.162.255.255,17,Ether / IP / UDP / NBTDatagram / SMB_Header / Tran b'\\MAILSLOT\\BROWSE' GetBackupListRequest
+2/6/2025 20:10,10.162.178.9,224.0.0.251,17,Ether / IP / UDP / mDNS Ans b'OMEN-rtx4050SeriesBeast._dosvc._tcp.local.'
+2/6/2025 20:10,10.162.178.9,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'OMEN-rtx4050SeriesBeast._dosvc._tcp.local.'
+2/6/2025 20:10,10.162.172.197,224.0.0.251,17,Ether / IP / UDP / mDNS Qry b'_companion-link._tcp.local.'
+2/6/2025 20:10,10.162.244.228,224.0.0.251,17,Ether / IP / UDP / mDNS Ans 10.162.244.228
