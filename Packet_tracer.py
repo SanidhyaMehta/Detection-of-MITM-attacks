@@ -19,7 +19,7 @@ def packet_callback(packet):
 # Capture packets and log them
 try:
     print("Starting packet capture (50 packets)...")
-    sniff(prn=packet_callback, count=50)
+    sniff(prn=packet_callback, count = 50)
 except Exception as e:
     print(f"Error during packet capture: {e}")
 
