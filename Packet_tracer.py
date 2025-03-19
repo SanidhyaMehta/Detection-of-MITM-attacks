@@ -26,7 +26,7 @@ except Exception as e:
 # Save to CSV for later analysis
 if packet_log:
     df = pd.DataFrame(packet_log)
-    df.to_csv("network_log.csv", index=False)
+    df.to_csv("network_log.csv", index = False)
     print("Packet data saved to network_log.csv")
 else:
     print("No packets captured.")
