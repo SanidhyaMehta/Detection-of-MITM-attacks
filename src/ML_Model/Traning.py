@@ -30,20 +30,15 @@ log_reg.fit(X_train, y_train)
 # Predict on test set
 y_pred_log = log_reg.predict(X_test)
 
-# Evaluation
-
-# print("Accuracy:", accuracy_score(y_test, y_pred_log))
-# print("\nClassification Report:\n", classification_report(y_test, y_pred_log))
-# print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred_log))
-
+import os
 import joblib
 
-# Save the trained logistic regression model
-joblib.dump(log_reg, "logistic_model.pkl")
 
-# Save the StandardScaler used for feature scaling
-joblib.dump(scaler, "scaler.pkl")
+# Get the base directory (parent of /src)
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
 
+# Save the trained logistic regression model in the base directory
+joblib.dump(log_reg, os.path.join(base_dir, "logistic_model.pkl"))
 
-
-
+# Save the StandardScaler used for feature scaling in the base directory
+joblib.dump(scaler, os.path.join(base_dir, "scaler.pkl"))

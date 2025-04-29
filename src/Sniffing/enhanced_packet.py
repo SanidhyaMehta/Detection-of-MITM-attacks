@@ -33,7 +33,7 @@ def packet_callback(packet):
         ])
 
 print("🚀 Capturing enhanced packet data (Press Ctrl+C to stop)...")
-sniff(iface=iface, prn=packet_callback, filter="ip", store=False, count=51)
+sniff(iface="en0", prn=packet_callback, filter="ip", store=False, count=51)
 
 # Save to CSV
 with open("enhanced_packets.csv", "w", newline="") as f:

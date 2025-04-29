@@ -1,8 +1,14 @@
 import pandas as pd
+import os
 
+# Get the absolute BASE_DIR pointing to Detection-of-MITM-attacks folder
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
-df = pd.read_csv("cleaned_packets.csv")  # Replace with your filename
+# Correct path to cleaned_packets.csv
+data_path = os.path.join(BASE_DIR, "cleaned_packets.csv")
 
+# Load the CSV
+df = pd.read_csv(data_path)
 
 required_cols = ['Destination Port', 'TTL', 'Length', 'Flags']
 for col in required_cols:
