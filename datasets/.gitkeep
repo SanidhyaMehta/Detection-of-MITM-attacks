@@ -1,0 +1,3 @@
+# This file ensures the datasets directory is tracked in git
+# Actual dataset files (.csv) are ignored but the directory structure is preserved
+
