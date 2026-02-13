@@ -1,0 +1,19 @@
+# Core ML and Data Processing
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+joblib>=1.2.0
+
+# Network Packet Processing
+scapy>=2.5.0
+
+# Web Framework (for Phase 2)
+flask>=2.3.0
+flask-cors>=4.0.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+
